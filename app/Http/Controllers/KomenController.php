@@ -20,14 +20,20 @@ class KomenController extends Controller
     }
      public function tambah (){
      	$komen =Komen::all();
-    	return view ('tampilan.komentar',['komen'=>$komen]);
+       $postingan = DB::table('tbl_postingan')
+        ->get();  
+    	return view ('tampilan.komentar',compact(['komen','postingan']));
+    }
+     public function artikel (){
+      $komen =Komen::all();
+      return view ('tampilan.artikel',compact(['komen']));
     }
      public function tampil (Request $request){
     $komen=Komen::create([              
     'nama'=>$request->nama,
     'komentar'=>$request->komentar,
         ]);
-        return redirect('/index');
+        return redirect('/komentar');
     }
      public function tampilan (){
         $komentar =Komen::all();

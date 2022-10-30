@@ -29,16 +29,12 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
-                        <a href="#!"><img class="img-fluid" src="assets/img/post-sample-image.jpg" alt="..." /></a>
-                        <p>Apa yang harus dilakukan saat membuat website? Sebelum melangkah kesana, apa itu website? Website adalah kumpulan halaman web yang dapat diakses publik dan saling terkait yang berbagi satu nama domain. Website dapat dibuat dan dikelola oleh.</p>
-                        <p>Secara kolektif, semua website yang dapat diakses publik membentuk suatu kesatuan yang namanya kita kenal sebagai World Wide Web (www).</p>
-                        <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>
-                        <p>Website pertama kali dibuat pada tahun 1990 oleh Tim Berners-Lee, seorang fisikawan Inggris di Dewan Eropa untuk Riset Nuklir (CERN). Berselang tiga tahun kemudian, CERN mengumumkan bahwa setiap orang dapat mengakses dan menggunakan World Wide Web secara gratis.</p>
-                        <p>Apakah Anda tertarik untuk mempunyai website? Bagaimana cara bikin website? Simak terus artikel ini jika Anda ingin tau cara buat website.</p>
-                        <h2 class="section-heading">Penjelasan</h2>
-                        <p>Bagaimana, apakah sekarang sudah tahu cara membuat website? Mudah bukan untuk melakukannya? Membuat website memang terdengar sulit namun jika Anda melakukan hal-hal di atas maka akan bisa mewujudkan website impian Anda.</p>
-                        <p>Jika Anda masih bingung atau ingin bertanya mengenai domain, hosting atau memerlukan jasa pembuatan website, Exabytes dapat menjadi solusi untukmu. Jadi, tunggu apa lagi? Segera wujudkan situs web impian Anda! Daftar Jasa Pembuatan Website Exabytes sekarang juga!</p>
-                        <blockquote class="blockquote">Semoga artikel hal-hal yang perlu dilakukan dalam membuat website dapat menjadi referensi untuk Anda.</blockquote>
+                        <a href="#!"><img class="img-fluid" src="assets/img/postt-sample-image.jpg" alt="..." /></a>
+                        <p>Di zaman sekarang ini semua sudah berbasis teknologi, hal tersebut membuat kebanyakan orang ingin bisa menguasai sebuah bahasa pemrograman dan bisa membuat program yang bisa berguna untuk orang lain. Bahasa pemrograman merupakan sarana yang digunakan orang untuk membuat aplikasi.</p>
+                        <p>Untuk Anda yang masih pemula, tentu tidak bisa langsung mengerti bahasa pemrograman dengan mudah. Oke, kali ini kami akan memberikan informasi tentang cara membuat program sederhana dan beberapa tahapan yang harus Anda lakukan jika ingin cepat bisa membuat program.</p>
+                        <p>Memang banyak sekali jenis bahasa pemrograman yang bisa Anda pelajari untuk bisa membuat sebuah aplikasi. Namun bagi Anda yang pemula maka terlebih dahulu pahami cara membuat program sederhana menggunakan Visual Basic.</p>
+                        <p>Bahasa pemrograman yang satu ini dianggap paling mudah untuk dipelajari. Visual Basic sering digunakan untuk membuat berbagai aplikasi berbasis windows. Anda bisa mulai membuat program yang sederhana sampai yang kompleks dengan menggunakan Visual Basic ini.</p>
+                        <p>Untuk dapat membuat sebuah program, selain memahami cara membuat program sederhana maka Anda juga harus mengetahui apa saja kelebihan dari bahasa pemrograman Visual Basic. Bahasa pemrograman yang satu ini sangat disukai karena sederhana dan mudah untuk dipelajari.</p>
                          <div class="post-preview">
                            <div class="post-title">
                             <p>beri

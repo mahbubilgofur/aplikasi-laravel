@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('judul');
             $table->string('isi'); 
             $table->string('tgl_post');
+            $table->string('link');
             $table->timestamps();
         });
     }

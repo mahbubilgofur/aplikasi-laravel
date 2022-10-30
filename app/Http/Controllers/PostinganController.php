@@ -20,10 +20,10 @@ class PostinganController extends Controller
     'id_post'=>$request->id_post,
     'judul'=>$request->judul,
     'isi'=>$request->isi,
-    'tgl_post'=>$request->tgl_post
+    'tgl_post'=>$request->tgl_post,
+    'link'=>$request->link
 
     	]);
-    echo $postingan->id_postingan;
     	return redirect('/postingan');
     }
     public function hapus($id){
@@ -45,7 +45,9 @@ class PostinganController extends Controller
  'id_post'=>$request->id_post,
     'judul'=>$request->judul,
     'isi'=>$request->isi,
-    'tgl_post'=>$request->tgl_post
+    'tgl_post'=>$request->tgl_post,
+    'link'=>$request->link
+
     	]);
     	return redirect('/postingan');
     }

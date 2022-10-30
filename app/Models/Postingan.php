@@ -13,6 +13,7 @@ class Postingan extends Model
 'id_post',
 'judul',
 'isi',
-'tgl_post'
+'tgl_post',
+'link'
  ];
 }

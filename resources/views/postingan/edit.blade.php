@@ -31,8 +31,16 @@
                     <div class="col-sm-10">
                       <input type="date" name="tgl_post" class="form-control" id="inputPassword3" placeholder="tgl_post" value="{{ $postingan->tgl_post }}">
                     </div>
-                      <div class="form-group row">
-                          <button type="submit" class="btn btn-primary">Update Data</button>
+                    
+                </div>
+                 <div class="form-group row">
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">LINK</label>
+                    <div class="col-sm-10">
+                      <input type="text" name="link" class="form-control" id="inputPassword3" placeholder="link" value="{{ $postingan->link }}">
+                    </div>
+                    <div class="modal-footer">
+                     <button type="submit" class="btn btn-primary">Save Data</button>
+                   </div>
                 </div>
             </div>
         </div>

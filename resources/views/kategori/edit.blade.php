@@ -22,7 +22,6 @@
                   </div>
                 <div class="form-group row">
                           <button type="submit" class="btn btn-primary">Update Data</button>
-
                 </div>
                 </div>
               </form>

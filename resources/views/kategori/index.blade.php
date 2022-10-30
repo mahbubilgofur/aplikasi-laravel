@@ -26,7 +26,7 @@
              <td class="bg-info">{{ $kategori->nama_kategori }}</td>
             
               <td class="bg-info"><a href="/kategori/edit/{{ $kategori->id }}"  class="btn btn-warning">EDIT</a>
-          <a href="/kategori/hapus/{{ $kategori->id }}" class="btn btn-danger">DELETE</a>
+          <a data-toggle="modal" data-target="#exampleModall" class="btn btn-danger">DELETE</a>
         </td>
     </tr>
     @endforeach
@@ -86,3 +86,19 @@
   </div>
 </div>
   @endsection 
+  <div class="modal fade" id="exampleModall" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Yakin Mau Hapus Data Kategori</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <a href="/kategori/hapus/{{ $kategori->id }}"><button type="submit" class="btn btn-primary">Hapus</button></a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -24,6 +24,9 @@ use App\Http\Controllers\KategoriController;
 Route::get('/eror', function () {
     return view('layout.index');
 });
+Route::get('/profil', function () {
+    return view('tampilan.about');
+});
 //tampialan awal dasboard
 // master dasboard admin
 Route::get('/postingan/index', function () {
@@ -62,7 +65,8 @@ Route::post('/kategori/edit/{id}', [KategoriController::class,'update']);
 Route::get('/index',[KomenController::class,'index']);
 Route::get('/komentar', [KomenController::class,'tambah']);
 Route::post('/komentar/tampil', [KomenController::class,'tampil']);
-
+Route::get('/artikel',[komenController::class,'artikel']);
+	
 Route::get('/komen',[komenController::class,'tampilan']);
 Route::get('/komen/tambah', [komenController::class,'form']);
 Route::post('/komen/tampil', [komenController::class,'post']);
